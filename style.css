@@ -1,0 +1,363 @@
+.w-icon{
+    width: 50px;
+    font-size: 25px;
+}
+
+.menu {
+    width: 50px;
+    height: 50px;
+}
+
+.phragrap-two {
+    text-align: center;
+}
+.icon-menu {
+    list-style-type: none;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-icon {
+    width: 25px;
+    height: 4px;
+    border: 1px solid black;
+    margin: 3px;
+    background-color: black;
+    border-radius: 2px;
+    margin-right: 34px;
+}
+.midItem-icon{
+    width: 20px;
+    height: 4px;
+    border: 1px solid black;
+    margin: 3px;
+    background-color: black;
+    border-radius: 2px;
+    margin-right: 34px;
+}
+
+.header {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.5)),url("https://bizweb.dktcdn.net/100/366/378/themes/736342/assets/slider_2.jpg?1663905428530");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+}
+
+/* .nav__bars-btn{
+    width: 28px;
+    height: 28px;
+    color: #333;
+    margin-left: 8px;
+    display: block;
+} */
+
+.row .col-md-4 .icon{
+    display: flex;
+    padding-top: 2rem;
+    padding-left: 5rem;
+    
+}
+.row .col-md-4 .icon .phone .logo-phone i{
+    padding-top: 1rem ;
+    padding-left: 1rem;
+    color: #f5f6fa;
+}
+
+.row .col-md-4 .icon .phone .logo-phone a{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.evo-cake{
+    text-align: center;
+}
+
+.content-body{
+    text-align: center;
+    color: #f5f6fa ;
+    margin-top: 140px;
+}
+
+.content-body h5{
+    margin: 30px ;
+    font-family:serif;
+}
+
+.content-body h1{
+    font-size: 50px;
+    font-family:serif;
+}
+.evo-cake img{
+    width: 120px;
+    height: 90px;
+    margin-top: 15px;
+}
+.nav-item{
+    padding: 10px;
+}
+
+.card {
+    border: none;
+}
+
+.delicus {
+    display: flex;
+}
+
+.delicus h6 {
+    overflow: hidden;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+}
+
+.price {
+    text-align: center;
+    color: #A3CB38;
+}
+
+.sanphamnb {
+    text-align: center;
+    margin-top: 60px;
+    margin: 30px;
+}
+
+.sanphamnoibat_header, .uudai{
+    border-bottom: 0 solid pink;
+    background-color: #fbefe2;
+}
+
+.content .row my-4{
+    display: grid;
+    grid-template-rows: 30px 500px;
+}
+
+.content .row .sanphamnoibat_head h3{
+    width: auto;
+    height: 100px;
+}
+
+.uudai .row .col-4 .hinhanh{
+    margin: 10px;
+    width: 120px;
+}
+
+.uudai .row a{
+    color: #333;
+    text-decoration: none;
+    overflow: hidden;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+}
+.uudai .col-12 .row  {
+    display: flex;
+}
+
+.uudai a:hover{
+    color: red;
+}
+
+.sanphamnb:hover, .phragrap-two h2:hover, .card h5:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.text-price{
+    color: green;
+    font-size:14px;
+    text-decoration: line-through;
+    color: #939393;;
+}
+
+.card-img{
+    width: 250px;
+    height: 250px;   
+}
+
+.tools-icon{
+    color: white;
+}
+
+.tool-content{
+    display: flex;
+}
+
+.ass{
+    border-radius: 50px;
+    padding: 10px 30px;
+    background-color: orange;
+    border: none;
+}
+
+.uudai .row .col-4{
+    display: flex;
+}
+
+.uudai .row .col-12 {
+    margin-top: 50px;
+    
+}
+
+.tinamthuc {
+    text-align: center;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.tat-ct {
+    width: 380px;
+    height: 250px;
+}
+
+.tinamthuc-header h6 {
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    margin: 30px;
+    text-transform: uppercase;
+    text-align: start;
+}
+
+.tinamthuc-header p {
+    text-align: start;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    margin: 5px;
+}
+
+.tinamthuc-header h6:hover, h1:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.sanphamdaxem {
+    padding: 30px 30px;
+    border-bottom: 1px solid #fbefe2;
+    background-color: #fbefe2;
+}
+
+.product-sent .images-group  {
+    margin: 10px 50px;
+    padding-left: 25px;
+}
+
+.product-sent .images-group .img .img{
+    align-items: center;
+}
+
+.product-sent .images-group img:hover{
+    border: 1px solid red;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.footer {
+    border-bottom: 1px solid pink;
+    margin-top: 50px;
+    padding: 25px ;
+    background-color: #fbefe2;
+}
+
+.images-group{
+    height: 130px;
+}
+
+.input-group .form-control{
+    border-radius: 99999px ;
+    border-right: none;
+}
+
+.input-group .input-group-addon{
+    color: #ddac55;;
+    font-size: 20px;
+    padding-top: 0.4rem;
+    padding-right: 1rem;
+    background: white;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 99999px;
+    cursor: pointer;
+}
+.icon-arrow i{
+    align-items: center;
+    color:orangered
+}
+.license i{
+    padding-right: 10px;
+}
+.logo-icon img{
+    width: 40px;
+    padding: 3px;
+}
+.logo-icon {
+    text-align: center;
+    padding: 5px;
+}
+
+.footer-a {
+    text-align: center;
+}
+.delicus .card{
+    padding-right: 50px ;
+}
+
+.logo-footer {
+    width: 115px;
+    margin: 8px;
+}
+
+.footer-b1 i{
+    margin: 5px;
+}
+
+.footer-b1 {
+    margin-top: 1px;
+    padding-left: 20px;
+}
+
+.info-product {
+    margin: 1px 30px ;
+}
+
+.address {
+    margin: 5px;
+}
+
+.camket {
+    padding:20px 20px; 
+    margin-bottom: 25px; 
+}
+
+.end {
+    text-align: center;
+}
+
+.license {
+    margin: 1px 10px;
+}
+
+.license i:hover {
+    color: #ddac55;
+    cursor: pointer;
+}
+
+.day-time {
+    border-radius: 5px;
+    background-color: #ddac55;
+    padding: 0px 10px;
+    margin: -250px 300px;
+    position: absolute;
+}
